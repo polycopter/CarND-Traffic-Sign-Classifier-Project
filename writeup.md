@@ -134,6 +134,12 @@ Here are five German traffic signs that I found on the web:
 
 The images are also displayed in my report.html (created from the notebook).
 
+The first 2 images are very clear, and have very limited distortion (e.g., blurring, skew, rotation, artifacts). 
+The 3rd image is at an angle of between 5 and 10 degrees from vertical (estimated by eye).
+The fourth image is skewed, it appears to be viewed at an angle (the left side of the sign appears slightly farther from the viewer than the right).
+The fifth sign is partially obscured by a label that is not part of the sign (it is superimposed).
+Based on the preceding, I would expect the first two signs to be easier to classify correctly than the other three.
+
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. Identify where in your code predictions were made. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
 The code for making predictions on my final model is located in the tenth cell of the Ipython notebook.
